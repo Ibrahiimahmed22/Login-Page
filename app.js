@@ -131,7 +131,7 @@ form.addEventListener("submit", function(e){
   if (passwordP.textContent === "✔Valid" &&
       confirmPasswordP.textContent.includes("match")) {
       
-      window.location.href = "../Day12/index.html";
+      window.location.href = "./Day12/index.html";
   }
 });
 
